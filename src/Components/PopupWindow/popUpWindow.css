@@ -1,0 +1,35 @@
+.popup-btn {
+  margin: 2em;
+}
+
+.popup-close-btn {
+  position: fixed;
+  right: 1em;
+  top: 1em;
+  font-size: 0.8em;
+  background-color: transparent;
+}
+
+div.popup {
+  overflow-y: scroll;
+  /* display: none; */
+  z-index: 100;
+  /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+  position: absolute;
+  padding: 2em;
+  height: 90%;
+  top: 15%;
+  left: 5%;
+  bottom: 15%;
+  right: 5%;
+  margin: auto;
+  color: white;
+  border-radius: 15px;
+  backdrop-filter: blur(2px);
+  border: #070b5e7a 1px solid;
+}
+
+.popup span {
+  color: rgb(253, 120, 120);
+  text-shadow: 1px 1px black;
+}
